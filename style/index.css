@@ -1,31 +1,46 @@
 #cabecalho {
     width: 100%;
+    height: 200px;
     display: flex;
     justify-content: center;
-}
-#empregado {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#quantidadeFilhos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#salario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 #formulario {
-    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    padding: 20PX;
+    margin: 20px;
 }
-#formulario input {
+.linha {
+    border: none;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.295);
+    width: 400px;
+    height: 40px;
+}
+table {
     display: flex;
     justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+tr, td {
+    width: 300px;
+    height: 70px;
+    border: 2px solid rgba(0, 0, 0, 0.322);
+    text-align: center;
+    font-size: large;
+}
+#botao {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#botao h3 {
+    width: 100px;
+    height: 20px;
+    color: white;
+    background-color: rgb(3, 156, 156);
+    align-items: center;
 }

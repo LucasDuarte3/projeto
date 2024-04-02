@@ -14,17 +14,37 @@
             <img src="image/salario-familia.jpg" alt="imagem salario salario-familia" width="400px">
         </div>
     </header>
-    <main>
+
     <div id="formulario">
-        <label for="empregado">Empregado</label>
-        <input type="text" id="empregado">
-
-        <label for="quantidadeFilhos">Quantidade de filhos menores de 14 anos ou inválidos</label>
-        <input type="text" id="quantidadeFilhos">
-
-        <label for="salario">Sálario contribuição</label>
-        <input type="text" id="salario">
+        <input class="linha" type="text" placeholder="Empregado">
+        <input class="linha" type="number" placeholder="Quantidades de filhos menores de 14 anos o inválidos">
+        <input class="linha" type="number" placeholder="Salário Contribuição">
     </div>   
-    </main>
+
+    <table>
+        <tr>
+            <td>Salário-Contribuição</td>
+            <td>Cota do Salário</td>
+        </tr>
+        <tr>
+            <td>Até R$ 806,80</td>
+            <td>R$ 41,37 por filho</td>
+        </tr>
+        <tr>
+            <td>Entre R$ 806,81 e R$ 1.212,64</td>
+            <td>R$ 29,16 por filho</td>
+        </tr>
+        <tr>
+            <td>Mais de R$ 1.212,64</td>
+            <td>Não há</td>
+        </tr>
+    </table>
+    
+    <div id="botao">
+        <button>
+        <h3>Calcular</h3>
+    </button>
+    </div>
+    
 </body>
 </html>
