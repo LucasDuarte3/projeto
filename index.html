@@ -11,14 +11,14 @@
 <body>
     <header>
         <div id="cabecalho">
-            <img src="image/salario-familia.jpg" alt="imagem salario salario-familia" width="400px">
+            <img src="image/salario-familia.jpg" alt="imagem salario-familia" width="400px">
         </div>
     </header>
 
     <div id="formulario">
         <input class="linha" type="text" placeholder="Empregado">
-        <input class="linha" type="number" placeholder="Quantidades de filhos menores de 14 anos o inválidos">
-        <input class="linha" type="number" placeholder="Salário Contribuição">
+        <input class="linha" id="QtdFilhos" type="number" placeholder="Quantidades de filhos menores de 14 anos o inválidos">
+        <input class="linha" id="salario" type="number" placeholder="Salário Contribuição">
     </div>   
 
     <table>
@@ -41,10 +41,10 @@
     </table>
     
     <div id="botao">
-        <button>
-        <h3>Calcular</h3>
-    </button>
+        <button type="button" id="calcule">
+            <h3>Calcular</h3>
+        </button>
     </div>
-    
+    <script src="js/index.js"></script>
 </body>
 </html>
